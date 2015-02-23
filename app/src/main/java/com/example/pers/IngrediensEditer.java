@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-public class EditIngrediens extends ActionBarActivity {
+public class IngrediensEditer extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +68,8 @@ public class EditIngrediens extends ActionBarActivity {
     }
 
     public void delete(View view) {
-
+        setResult(MainActivity.RESULT_DELETE);
+        finish();
     }
 
 }

@@ -38,4 +38,9 @@ public class Ingrediens {
     public void setUnit(String unit) {
         this.unit = unit;
     }
+
+    @Override
+    public String toString() {
+        return ingrediens + " " + amount + " " + unit;
+    }
 }
