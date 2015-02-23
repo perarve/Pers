@@ -10,5 +10,7 @@
     <string name="amount">Mängd</string>
     <string name="enhet">Enhet</string>
     <string name="save">Spara</string>
+    <string name="title_activity_edit_ingrediens">EditIngrediens</string>
+    <string name="tabort">Ta bort</string>
 
 </resources>

@@ -73,9 +73,8 @@ public class MainActivity extends Activity implements OnItemClickListener{
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
-		String text = ((TextView)view).getText().toString();
-		Toast.makeText(this,"YOU clicked " + text, Toast.LENGTH_LONG).show();
-		
+		Intent intent = new Intent(this, EditIngrediens.class);
+        startActivityForResult(intent, 2);
 	}
 }
 
