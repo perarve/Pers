@@ -17,6 +17,15 @@ public class IngrediensEditer extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_ingrediens);
+
+        Intent intent = getIntent();
+
+        EditText ed1 = (EditText)findViewById(R.id.editText1);
+        EditText ed2 = (EditText)findViewById(R.id.editText2);
+        EditText ed3 = (EditText)findViewById(R.id.editText3);
+        ed1.setText(intent.getStringExtra(MainActivity.INGREDIENS));
+        ed2.setText(String.valueOf(intent.getDoubleExtra(MainActivity.AMOUNT,1)));
+        ed3.setText(intent.getStringExtra(MainActivity.UNIT));
     }
 
 
