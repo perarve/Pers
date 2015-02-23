@@ -76,7 +76,7 @@ public class MainActivity extends Activity implements OnItemClickListener{
                     beingEdited.setIngrediens(ingred);
                     beingEdited.setAmount(amount);
                     beingEdited.setUnit(unit);
-
+                    adapter.notifyDataSetChanged();
                 }
                 break;
             case RESULT_DELETE:
