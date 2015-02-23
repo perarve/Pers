@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PersApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Lägg till</string>
+    <string name="title_activity_ingrediens_adder">Lägg till ingredienser</string>
+    <string name="ingrediens">Ingrediens</string>
+    <string name="amount">Mängd</string>
+    <string name="enhet">Enhet</string>
+    <string name="save">Spara</string>
+
+</resources>
